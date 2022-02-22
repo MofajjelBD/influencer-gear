@@ -231,7 +231,7 @@ header nav .search_cart i:last-child{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 .feature .f-photo img{
     width: 100%;
