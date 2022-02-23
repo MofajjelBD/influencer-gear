@@ -114,9 +114,11 @@ header nav .search_cart i:last-child{
     background-image: url(images/Circle\ design.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .journeyarea .displayphoto img{
-    width: 100%; 
+    width: 80%;
+    padding: 8%; 
 }
 /* journey area style start here  */
 
@@ -137,8 +139,9 @@ header nav .search_cart i:last-child{
     padding: 15px 0;
 }
 
-/* .partner{
-} */
+.partner{
+    margin: 10px 0;
+}
 
 /* parner area style end here  */
 
@@ -339,7 +342,19 @@ list-style: none;
  footer area style end here 
  ---------------------------------
 --------------------------------*/
-
+@media only screen and (max-width: 1073px){
+    .journeyarea{
+        justify-content: center;
+    }
+    .feature{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1039px){
+    .journeyarea{
+        justify-content: center;
+    }
+}
 @media only screen and (max-width: 768px) {
     header nav .menu_area ul {
       display: none;
@@ -350,8 +365,8 @@ list-style: none;
     header nav .s-menu{
         display: block;
     }
-    .collectionarea {
-        margin-top: 50px;
+    .journeyarea{
+        justify-content: center;
     }
     .journeyarea .displayphoto, .f-content{
         order: 1;
@@ -363,6 +378,9 @@ list-style: none;
         font-size: 28px;
         line-height: 42px;
     }
+    .collectionarea {
+        margin-top: 50px;
+    }
     .clec_details h3 {
         font-size: 28px;
         line-height: 24px;
@@ -370,6 +388,9 @@ list-style: none;
     .f-content h2{
         font-size: 24px;
         line-height: 36px;
+    }
+    .feature{
+        justify-content: center;
     }
     
   }
